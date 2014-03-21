@@ -63,7 +63,8 @@ function isRequestAllowed($token)
         <div class="container">
           <div class="starter-template">
             <h1>MtGox Balance</h1>
-            <p class="lead">Use this tool to add your MtGox balance to our list.<br> All you need to do is login to MtGox, <a class="my-popover" title="Get your session id" data-toggle="popover" data-container="body" data-html="true" data-content="<a href='http://www.wikihow.com/View-Cookies' target='_blank'>How to view cookies</a><br><br>Search for www.mtgox.com and copy the ‘value’ string in PHPSESSID.  Example: 5ie80p13q6qk8bt89suk2crrk5">get your session id</a> and paste it here together with your email.<br>This email does not have to be your MtGox email.</p>
+            <p class="lead">Use this tool to add your MtGox balance to our list.<br> All you need to do is login to MtGox, <a class="my-popover" title="Get your session id" data-toggle="popover" data-container="body" data-html="true" data-content="<a href='http://www.wikihow.com/View-Cookies' target='_blank'>How to view cookies</a><br><br>Search for www.mtgox.com and copy the ‘value’ string in PHPSESSID.  Example: 5ie80p13q6qk8bt89suk2crrk5">get your session id</a> and paste it here together with your email.<br>This email does not have to be your MtGox email.
+             <br><b>Important: This service is as of now storing the downloaded data in database, once issues <a href="https://github.com/mtgoxbalance/mtgoxbalance/issues/9">#9</a> and <a href="https://github.com/mtgoxbalance/mtgoxbalance/issues/10">#10</a> are resolved this storing will become optional as user will be able to download signed and timestamped copy of data. Data stored before this will be kept available as when taking into account potetial/probable complete MtGox database leak there is no way to ensure that request for removal is authentic.</b></p>
           </div>
         </div>
         <div class="container">
